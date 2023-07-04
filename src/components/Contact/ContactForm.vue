@@ -33,9 +33,15 @@
             </div>
           </div>
 
-          <div class="form-data">
+          <div class="form-data mb-2">
             <textarea name="" id="" cols="30" rows="6"></textarea>
             <label for="">Message</label>
+          </div>
+
+          <div class="text-right">
+            <button class="button primary-btn">
+                send
+            </button>
           </div>
         </form>
       </div>
@@ -74,7 +80,7 @@ export default {};
     margin-bottom: 12px;
 }
 
-.form-data .form-item label {
+.form-data  label {
     color:#A3A3A3 ;
     font-size: 14.6px;
 }

@@ -59,8 +59,6 @@ export default {};
   font-weight: 600;
   font-size: 20px;
 }
-.contact-form form {
-}
 
 .form-data input,
 .form-data textarea {

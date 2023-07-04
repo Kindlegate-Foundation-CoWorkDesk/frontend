@@ -1,0 +1,28 @@
+/* LAYOUT */
+.spacer {
+    
+}
+
+/* BUTTONS */
+.button {
+    padding: 6px 25px;
+    text-transform: uppercase;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 28px;
+    box-shadow: none;
+}
+
+.light-outline-btn {
+    background-color: transparent;
+    border-color: var(--white-50);
+    color: var(--white-50);
+}
+
+.primary-btn {
+    color: #000;
+    font-weight: 600;
+    border-color: var(--PRIMARY2);
+    background-color: var(--PRIMARY2);
+}
+

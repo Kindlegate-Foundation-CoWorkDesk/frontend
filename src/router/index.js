@@ -46,7 +46,7 @@ const routes = [
     }
   },
   {
-    path: '/mandate',
+    path: '/our-mandate',
     name: 'mandate',
     component: MandateView,
     meta: {
@@ -70,8 +70,8 @@ const routes = [
     }
   },
   {
-    path: '/tribe',
-    name: 'tribe',
+    path: '/our-tribe',
+    name: 'our-tribe',
     component: TribeView,
     meta: {
       layout: 'PagesLayout'

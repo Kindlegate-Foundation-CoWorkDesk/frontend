@@ -1,20 +1,23 @@
 <template>
   <div>
     <div>
-        <slot />
+      <app-header />
+      <slot />
+      <our-volunteer/>
+      <app-footer/>
     </div>
   </div>
 </template>
 
 <script>
+import AppHeader from "@/components/navigation/AppHeader.vue";
+import AppFooter from '@/components/navigation/AppFooter.vue';
+import OurVolunteer from '@/components/OurVolunteer.vue';
 export default {
-  components: {  },
+  components: { AppHeader, AppFooter, OurVolunteer },
   name: "HomeLayout",
-  computed: {
-   
-  },
+  computed: {},
 };
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

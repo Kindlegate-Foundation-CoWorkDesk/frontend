@@ -1,5 +1,9 @@
 <template>
   <div id="app-header">
+    <ContactHeader v-if="routeName !== 'home'"/>
+    <!-- <div>
+      {{ routeName.name }}
+    </div> -->
     <div class="app-header-content container py-3">
       <div>
         <img src="@/assets/img/kindlegate_logo.svg" class="logo" alt="" />
@@ -13,11 +17,15 @@
         <button class="button light-outline-btn">donate</button>
       </div>
     </div>
+    <hr class="bg-white" v-if="routeName !== 'home'">
   </div>
 </template>
 
 <script>
+
+import ContactHeader from '@/components/navigation/ContactHeader.vue';
 export default {
+  components: { ContactHeader },
   data() {
     return {
       menu: [
@@ -64,6 +72,11 @@ export default {
       ],
     };
   },
+  computed:{
+    routeName(){
+      return this.$route.name
+    }
+  }
 };
 </script>
 

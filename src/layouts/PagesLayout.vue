@@ -1,7 +1,10 @@
 <template>
     <div>
-      <div id="main">
-        <div class="main-content">
+      <div id="">
+
+        <div class="">
+          
+          <app-header/>
           <slot />
         </div>
       </div>
@@ -9,8 +12,9 @@
   </template>
   
   <script>
+import AppHeader from '@/components/navigation/AppHeader.vue';
   export default {
-    components: {  },
+    components: { AppHeader },
     name: "PagesLayout",
     computed: {
      

@@ -26,7 +26,7 @@ const routes = [
     name: 'blog',
     component: BlogView,
     meta: {
-      layout: 'PagesLayout'
+      layout: 'HomeLayout'
     }
   },
   {
@@ -34,7 +34,7 @@ const routes = [
     name: 'contact',
     component: ContactView,
     meta: {
-      layout: 'PagesLayout'
+      layout: 'HomeLayout'
     }
   },
   {
@@ -42,7 +42,7 @@ const routes = [
     name: 'get-involved',
     component: GetInvolvedView,
     meta: {
-      layout: 'PagesLayout'
+      layout: 'HomeLayout'
     }
   },
   {
@@ -50,7 +50,7 @@ const routes = [
     name: 'mandate',
     component: MandateView,
     meta: {
-      layout: 'PagesLayout'
+      layout: 'HomeLayout'
     }
   },
   {
@@ -58,7 +58,7 @@ const routes = [
     name: 'news',
     component: NewsView,
     meta: {
-      layout: 'PagesLayout'
+      layout: 'HomeLayout'
     }
   },
   {
@@ -66,7 +66,7 @@ const routes = [
     name: 'programs',
     component: ProgramsView, 
     meta: {
-      layout: 'PagesLayout'
+      layout: 'HomeLayout'
     }
   },
   {
@@ -74,7 +74,7 @@ const routes = [
     name: 'our-tribe',
     component: TribeView,
     meta: {
-      layout: 'PagesLayout'
+      layout: 'HomeLayout'
     }
   },
  

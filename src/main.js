@@ -12,6 +12,9 @@ import 'element-ui/lib/theme-chalk/index.css';
 
 Vue.use(ElementUI);
 
+import { Icon } from '@iconify/vue2';
+Vue.component("i-icon", Icon);
+
 new Vue({
   router,
   store,

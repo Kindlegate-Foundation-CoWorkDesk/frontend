@@ -75,4 +75,13 @@ export default {};
     bottom: -4px;
     background-color: var(--PRIMARY1);
 }
+
+@media (max-width: 990px) {
+    .our-mandate {
+        background: none;
+    }
+    .mandate-content {
+        width: 100%;
+    }
+  }
 </style>

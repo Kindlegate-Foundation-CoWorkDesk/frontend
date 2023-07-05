@@ -3,7 +3,7 @@
     <div class="container">
       <h5>Our Team</h5>
 
-      <div class="d-flex align-items-center">
+      <div class="d-lg-flex align-items-center">
         <div class="user-details text-center">
             <img src="@/assets/img/user.png" alt="" />
             <h5>lorem ipsum</h5>
@@ -21,7 +21,7 @@
         </p>
       </div>
 
-      <div class="d-flex align-items-center mt-5" >
+      <div class="d-lg-flex align-items-center mt-5" >
         <div class="user-details text-center">
             <img src="@/assets/img/user.png" alt="" />
             <h5>lorem ipsum</h5>
@@ -92,5 +92,9 @@ export default {};
 
 .user-details img {
     height: 300px;
+}
+
+@media (max-width:990px) {
+
 }
 </style>

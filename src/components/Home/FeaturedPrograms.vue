@@ -55,23 +55,5 @@ export default {
 </script>
 
 <style>
-.card-content {
-  padding: 20px;
-}
 
-.card-content a {
-  text-decoration: underline !important;
-  color: var(--BG2);
-}
-
-.featured-cards {
-    display: flex;
-    display: inline-flex;
-    display: -webkit-flex;
-    gap: 20px;
-}
-
-.featured-cards img {
-    border-radius: 10px;
-}
 </style>

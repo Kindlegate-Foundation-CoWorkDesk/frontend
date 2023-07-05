@@ -113,4 +113,10 @@ export default {
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
 }
+
+@media (max-width:990px) {
+    .news-cards {
+        grid-template-columns: auto;
+    }
+}
 </style>

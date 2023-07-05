@@ -2,8 +2,8 @@
   <div id="app-footer">
     <div class="container">
       <img src="@/assets/img/kindlegate_logo.svg" width="120" class="logo" alt="" />
-      <div class="d-flex" style="gap:50px">
-        <div class="w-100">
+      <div class="d-lg-flex" style="gap:50px">
+        <div class="w-100 my-3">
             <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
               Maecenas porttitor congue massa. 
@@ -14,10 +14,10 @@
           <h5>Reach Us</h5>
           <ul>
             <li>
-              <router-link to="/">About Us</router-link>
+              <router-link to="/our-mandate">About Us</router-link>
             </li>
             <li>
-              <router-link to="/">Contact Us</router-link>
+              <router-link to="/contact">Contact Us</router-link>
             </li>
           </ul>
         </div>
@@ -25,13 +25,13 @@
           <h5>Programs</h5>
           <ul>
             <li>
-              <router-link to="/">Arts</router-link>
+              <router-link to="/programs">Arts</router-link>
             </li>
             <li>
-              <router-link to="/">SDGs</router-link>
+              <router-link to="/programs">SDGs</router-link>
             </li>
             <li>
-              <router-link to="/">SDGs</router-link>
+              <router-link to="/programs">Entreprenuership</router-link>
             </li>
           </ul>
         </div>
@@ -39,13 +39,13 @@
           <h5>Resources</h5>
           <ul>
             <li>
-              <router-link to="/">Blog</router-link>
+              <router-link to="/blog">Blog</router-link>
             </li>
             <li>
               <router-link to="/">Privacy Policy</router-link>
             </li>
             <li>
-              <router-link to="/">News</router-link>
+              <router-link to="/news">News</router-link>
             </li>
           </ul>
         </div>

@@ -101,4 +101,10 @@ export default {};
   gap: 5px;
 }
 
+@media (max-width:990px) {
+    .events-card {
+       flex-direction: column;
+    }
+}
+
 </style>

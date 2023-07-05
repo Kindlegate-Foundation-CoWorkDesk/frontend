@@ -96,5 +96,11 @@
   .featured-cards img {
       border-radius: 10px;
   }
+
+  @media (max-width: 990px) {
+  .featured-cards {
+    grid-template-columns: auto !important;
+  }
+}
   </style>
   

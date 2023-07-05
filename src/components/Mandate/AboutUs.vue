@@ -36,16 +36,27 @@ export default {};
 
 <style>
 .about-us {
-    background: url("@/assets/img/mandate-arc.png");
-    background-position: right;
-    background-size: 20% 70%;
-    background-repeat: no-repeat ;
-}
-.about-us h5 {
-    font-weight: 600;
+  background: url("@/assets/img/mandate-arc.png");
+  background-position: right;
+  background-size: 20% 70%;
+  background-repeat: no-repeat;
 }
 
-.about-us .body  {
-    width: 50%;
+.about-us h5 {
+  font-weight: 600;
+}
+
+.about-us .body {
+  width: 50%;
+}
+
+@media (max-width: 990px) {
+  .about-us {
+    background: none;
+  }
+
+  .about-us .body {
+    width: 100%;
+  }
 }
 </style>

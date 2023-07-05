@@ -2,18 +2,18 @@
   <div class="contact-information">
     <div class="container">
       <div class="row justify-content-between text-white">
-        <div class="col text-center">
+        <div class="col-md-4 text-center">
           <h5>Address</h5>
           <p>The Grey Gate, Olushola Agbaje, Off Road 13 lekki Phase I, Lagos, Nigeria.</p>
         </div>
 
-        <div class="col text-center">
+        <div class="col col-mb-12 text-center">
           <h5>Phone and Email</h5>
           <p>+234 818 038 0006</p>
           <p>info@kindlegatefoundation.org</p>
         </div>
 
-        <div class="col text-center">
+        <div class="col-md-4 text-center">
           <h5>Social Media</h5>
           <div class="d-flex justify-content-center" style="gap:10px">
             <i class="fa fa-facebook-square" aria-hidden="true"></i>

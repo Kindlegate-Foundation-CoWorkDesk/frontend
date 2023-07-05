@@ -70,6 +70,8 @@ export default {};
 
 .form-data .form-item {
     display: flex;
+    display: inline-flex;
+    display: -webkit-flex;
     gap: 20px;
 }
 
@@ -81,5 +83,14 @@ export default {};
 .form-data  label {
     color:#A3A3A3 ;
     font-size: 14.6px;
+}
+
+@media (max-width:990px) {
+    .contact-form .w-75 {
+        width: 100% !important;
+    }
+    .form-data .form-item { 
+        flex-direction: column;
+    }
 }
 </style>

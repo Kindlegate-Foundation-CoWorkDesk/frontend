@@ -26,3 +26,20 @@
     background-color: var(--PRIMARY2);
 }
 
+/* N Progress  */
+#nprogress .bar {
+    height: 5px;
+    background: var(--PRIMARY1);
+}
+
+#nprogress .spinner-icon {
+    border-top-color: var(--PRIMARY1);
+    border-left-color: var(--PRIMARY1);
+    width: 30px;
+    height: 30px;
+}
+
+#nprogress .peg {
+    box-shadow: 0 0 10px var(--PRIMARY1), 0 0 5px var(--PRIMARY1);
+}
+

@@ -13,4 +13,10 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+@media (max-width: 990px) {
+    .our-partners img {
+        width: 100%;
+    }
+}
+</style>

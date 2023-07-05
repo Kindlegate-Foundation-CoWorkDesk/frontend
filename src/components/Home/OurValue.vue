@@ -2,7 +2,7 @@
   <div class="our-value mt-5">
     <div class="container">
       <div class="mb-5">
-        <h3>OUR VALUE ADDING ROADMAP <br>(HESS MANDATE)</h3>
+        <h3>OUR VALUE ADDING ROADMAP <br />(HESS MANDATE)</h3>
       </div>
       <el-carousel indicator-position="outside">
         <el-carousel-item
@@ -71,19 +71,19 @@ export default {
 
 <style>
 .our-value h3 {
-    color: #fff;
-    font-weight: 600;
-    position: relative;
+  color: #fff;
+  font-weight: 600;
+  position: relative;
 }
 
 .our-value h3::after {
-    content: " ";
-    width: 20%;
-    height: 3px;
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    background: var(--PRIMARY1);
+  content: " ";
+  width: 20%;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  background: var(--PRIMARY1);
 }
 
 .carousel-card {
@@ -170,7 +170,7 @@ export default {
     width: 100%;
   }
   .el-carousel__container {
-    height: 500px;
+    height: 400px !important;
   }
   .el-carousel__item {
     flex-direction: column;
@@ -188,6 +188,18 @@ export default {
     background-size: contain;
     background-repeat: no-repeat;
     width: 400px;
+  }
+
+  .our-value {
+    background-size: 60% 50%;
+  }
+
+  .image-bg {
+    display: none;
+  }
+
+  .carousel-card {
+    width: 100%;
   }
 }
 </style>

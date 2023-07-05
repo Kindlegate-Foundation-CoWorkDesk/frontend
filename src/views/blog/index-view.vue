@@ -55,4 +55,10 @@ export default {
   left: 0;
   bottom: -5px;
 }
+
+@media (max-width:990px) {
+  .blogs-list .w-50 {
+    width: 100% !important;
+  }
+}
 </style>

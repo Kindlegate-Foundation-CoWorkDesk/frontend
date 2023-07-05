@@ -68,5 +68,16 @@
   .hero-content button {
     width: 80%;
   }
+
+  @media (max-width: 990px) {
+    .hero-section {
+        height: 100vh;
+        justify-content: center;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+  }
   </style>
   

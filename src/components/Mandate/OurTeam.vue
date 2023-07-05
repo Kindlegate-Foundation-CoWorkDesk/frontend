@@ -50,4 +50,10 @@ export default {
     grid-template-columns: 1fr 1fr 1fr;
     gap:20px;
 }
+
+@media (max-width: 990px) {
+    .our-team-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
 </style>

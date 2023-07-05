@@ -2,7 +2,7 @@
     <hero-section :backgroundUrl="url" :positionEnd="false">
       <template #header>
         <h1>
-          OUR MANDATE
+          OUR TRIBE
         </h1>
       </template>
   

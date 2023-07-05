@@ -2,7 +2,7 @@
     <hero-section :backgroundUrl="url" :positionEnd="false">
       <template #header>
         <h1>
-          OUR MANDATE
+          PROGRAMS
         </h1>
       </template>
   
@@ -30,7 +30,7 @@
     components: { HeroSection },
     data() {
       return {
-        url: require("@/assets/img/kindlegate-mandate.jpg"),
+        url: require("@/assets/img/kindlegate-program.jpg"),
       };
     },
   };

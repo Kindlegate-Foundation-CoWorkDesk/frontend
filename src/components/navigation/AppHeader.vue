@@ -99,6 +99,22 @@ export default {
       ],
     };
   },
+  mounted() {
+    var className = "inverted";
+    var scrollTrigger = 60;
+
+    window.onscroll = function () {
+      // We add pageYOffset for compatibility with IE.
+      if (
+        window.scrollY >= scrollTrigger ||
+        window.pageYOffset >= scrollTrigger
+      ) {
+        document.getElementById("app-header").classList.add(className);
+      } else {
+        document.getElementById("app-header").classList.remove(className);
+      }
+    };
+  },
   computed: {
     routeName() {
       return this.$route.name;
@@ -108,9 +124,14 @@ export default {
 </script>
 
 <style>
+.inverted {
+  background-color: var(--PRIMARY2)
+}
+
 #app-header {
   position: fixed;
   width: 100%;
+  z-index: 9999;
 }
 
 .app-header-content {
@@ -171,7 +192,7 @@ ul.mobile-nav-menu li a {
 }
 
 .router-link-exact-active {
-  color: var(--PRIMARY1) !important;  
+  color: var(--PRIMARY1) !important;
 }
 
 @media (max-width: 990px) {

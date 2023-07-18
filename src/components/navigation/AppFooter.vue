@@ -1,16 +1,20 @@
 <template>
   <div id="app-footer">
     <div class="container">
-      <img src="@/assets/img/kindlegate_logo.svg" width="120" class="logo" alt="" />
-      <div class="d-lg-flex" style="gap:50px">
+      <img
+        src="@/assets/img/kindlegate_logo.svg"
+        width="120"
+        class="logo"
+        alt=""
+      />
+      <div class="d-lg-flex" style="gap: 50px">
         <div class="w-100 my-3">
-            <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-              Maecenas porttitor congue massa. 
-              Fusce posuere, magna sed pulvinar ultricies,
-            </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
+            porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies,
+          </p>
         </div>
-        <div  class="w-100">
+        <div class="w-100">
           <h5>Reach Us</h5>
           <ul>
             <li>
@@ -21,7 +25,7 @@
             </li>
           </ul>
         </div>
-        <div  class="w-100">
+        <div class="w-100">
           <h5>Programs</h5>
           <ul>
             <li>
@@ -35,7 +39,7 @@
             </li>
           </ul>
         </div>
-        <div  class="w-100">
+        <div class="w-100">
           <h5>Resources</h5>
           <ul>
             <li>
@@ -54,10 +58,18 @@
     <hr class="bg-white" />
     <div class="container">
       <div class="social-media-icons">
-        <i class="fa fa-facebook-square" aria-hidden="true"></i>
-        <i class="fa fa-instagram" aria-hidden="true"></i>
-        <i class="fa fa-twitter" aria-hidden="true"></i>
-        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+        <a href="https://www.facebook.com/kindlegatefoundation" target="_blank"
+          ><i class="fa fa-facebook-square" aria-hidden="true"></i
+        ></a>
+        <a href="https://www.instagram.com/kindlegatefoundation/?hl=en" target="_blank"
+          ><i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="https://twitter.com/kindlegatecares" target="_blank">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/kindle-gate-foundation-090080284/" target="_blank">
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </a>
       </div>
     </div>
   </div>
@@ -89,12 +101,12 @@ export default {};
 }
 
 #app-footer ul li a {
-  color: #F1F1F1;
+  color: #f1f1f1;
   font-size: 14px;
 }
 
 #app-footer p {
-  color: #F1F1F1;
+  color: #f1f1f1;
 }
 
 .social-media-icons {

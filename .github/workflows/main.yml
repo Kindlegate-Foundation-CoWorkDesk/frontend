@@ -29,7 +29,7 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
 #           server: ${{ secrets.KINDLEGATE_FTP_SERVER }}
-          server: ${{ secrets.KINDLEGATE_FTP_SERVER }}
+          server: ftp.kindlegatefoundation.org
           username: ${{ secrets.KINDLEGATE_FTP_USERNAME }}
           password: ${{ secrets.KINDLEGATE_FTP_PASSWORD }}
           local-dir: dist/
